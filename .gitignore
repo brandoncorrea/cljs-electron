@@ -1,6 +1,8 @@
+/.idea
 target/
 resources/public/js/
 resources/main.js
 *-init.clj
+*.iml
 figwheel_server.log
 .nrepl-port
