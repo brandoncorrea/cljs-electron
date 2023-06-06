@@ -6,6 +6,7 @@
   :dependencies [[org.clojure/clojure "1.10.0"]
                  [org.clojure/clojurescript "1.11.60"]
                  [figwheel "0.5.19"]
+                 [com.cleancoders.c3kit/wire "1.0.26"]
                  [figwheel-sidecar "0.5.19"]
                  [cider/piggieback "0.5.3"]
                  [reagent "0.8.1"]

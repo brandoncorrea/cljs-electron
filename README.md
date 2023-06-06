@@ -18,13 +18,12 @@ My attempt to recreate ClojureScript development workflow while developing deskt
 
 ```shell
 npm install electron -g # install electron binaries
-
 ```
 
 ### Terminal
 ```shell
-lein cooper                      # compile cljs and start figwheel
-electron .                       # start electron from another terminal
+lein cooper # compile cljs and start figwheel
+electron .  # start electron from another terminal
 ```
 
 ### Emacs REPL
@@ -54,3 +53,11 @@ The easiest way to package an electron app is by using [electron-packager](https
 npm install electron-packager -g                                            # install electron packager
 electron-packager . HelloWorld --platform=darwin --arch=x64 --electron-version=1.4.8 # package it!
 ```
+
+## TODO
+
+- Convert to Clojure Deps project
+- Integrate Speclj
+- Add CSS
+- Restructure directories to use project names
+- Integrate Scaffold (if possible with two cljs builds)
